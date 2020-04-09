@@ -1,0 +1,8 @@
+dirsearch - inbuilt wordlist - fast
+----------------Download Here---------------
+git clone https://github.com/maurosoria/dirsearch
+
+usage-
+      python3 dirsearch.py -u <URL> -e <EXTENSION>
+
+-----------------------------------------------------------------------------------------------------------------------

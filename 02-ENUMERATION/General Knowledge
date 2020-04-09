@@ -1,0 +1,3 @@
+1)  403 errors, instead of the expected 404. 
+    This might mean that there is a WAF protecting the site. 
+    To get around it we might have to change our request header to it looks more like a normal request. 

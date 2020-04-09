@@ -1,6 +1,12 @@
-https://github.com/Tib3rius/AutoRecon
+--------Download Tool from here----------
+git clone https://github.com/Tib3rius/AutoRecon
 
-
-Python3 
-Run as Root
-Need tool GoBuster
+dependencies
+  sudo apt install python3-pip
+  sudo pip3 install toml
+  sudo apt install gobuster
+  sudo apt install seclists
+  
+  
+ Usage
+  python3 autorecon.py  -v  <--IP-->

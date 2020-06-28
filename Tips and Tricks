@@ -1,0 +1,58 @@
+Tips & Tricks
+
+There are a lot of great OSCP summaries out there. Here are some of my favorite ones:
+
+    Initial scan for every box:
+
+        TCP: nmap -A -sV --script=default,vuln -p- --open -oA tcp_10.11.1.x 10.11.1.x
+
+        UDP: nmap -A -sV -sU --script=default,vuln --open -oA udp_10.11.1.x 10.11.1.x
+
+        https://github.com/jivoi/pentest (this is awesome!)
+
+        scan whole subnet and export .gnmap into an excel file while you are studying the materials.
+
+    Favorite 2 Summaries:
+
+        https://bitvijays.github.io/LFC-VulnerableMachines.html
+
+        https://guif.re/linuxeop && https://guif.re/windowseop
+
+    Learn tools which are not mentioned in the pdf
+
+        burp
+
+        nikto
+
+        cadaver
+
+        showmount -e
+
+        curl (this is probably the most important tool to understand and what you can do with it)
+
+    Personal Tips (for mac / linux)
+
+        Don't use a VMware player for accessing the websites etc
+
+            forward the ports and use burp on your host system
+
+            forward the ports and use the browsers on your host system
+
+            Iterm2 with splitpane is pure gold and infinite scrolling
+
+        Record your screen during the exam, if you miss something you can go back during the reporting and take the screenshots
+
+        Take breaks!
+
+        Join the discord grp if you are not a super genius who can learn everything by yourself quickly.
+
+        Threat the whole OSCP as a video game where you move from box to box to pwn everything.
+
+        One Note is by far the best tool to take notes imo.
+
+Some final words:
+
+Offsec really did an awesome job. Sometimes you hate it and sometimes you love it, it was a rollercoaster for sure. Overall I don't think I ever learned that much in 3 months than I did here. I'll move on to the CISSP now and maybe one day I'll return for OSCE since BoF was by far my most favorite part in the whole course.
+
+
+Feel free to ask me anything here related to this post, as long it's not against the offsec rules I'll probably answer it.

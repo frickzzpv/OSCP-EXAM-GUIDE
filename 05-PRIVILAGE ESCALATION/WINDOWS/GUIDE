@@ -1,13 +1,14 @@
 
 
-winPEAS and lse.sh were my preferred privilege escalation tools
-
+winPEAS and lse.sh were my preferred privilege escalation tool
 
 
 Windows Exploit Sugeestor
 Get the systeminfo file and use this tool
 https://github.com/AonCyberLabs/Windows-Exploit-Suggester
 
+
+https://mysecurityjournal.blogspot.com/p/client-side-attacks.html
 
 
 http://www.fuzzysecurity.com/tutorials/16.html

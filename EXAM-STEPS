@@ -1,39 +1,24 @@
-My exam started at 8 in the morning, 
-
 15 minutes early to verify your identity and scan your room for the proctoring staff.
-
-If you are able, have a good web camera. Took about 30 minutes to get everything verified.
 
 -----------------------------------------------------------------------------------------
 
-Exam Started
 
-I started up auto recon on the four boxes.
+Start with nmapautomator on the four boxes.
 
-I Got the buffer overflow done in 1 hour and 45 minutes.
+Start buffer overflow (Try finish in 1 hour and 45 minutes)
 
 If nothing works > I Enumerate everything without autorecon.
 
-I wrote each port on a piece of paper, 
-along with the listening service and its version. 
+I wrote each port on a piece of paper,along with the listening service and its version. 
 
 I then searched ExploitDB/Google/Github/ippsec.rocks for each port and took notes.
 
-Putting everything on paper helped me figure out what had to be done.
+Putting everything on paper what had to be done.
 
 Everyone says don't rabbit hole. I was trying really hard not to, but I don't agree with that advice anymore. 
-I ended trying everything I could think of on the 25 point box. 
-Honestly I think you do have enough time to just brute force investigate/try everything. 
-If you have to rabbit hole, go for it.
 
-At 6:15PM I had my first user shell.
-
-By 7:00PM I had a rootshell.
+you do have enough time to just brute force investigate/try everything. If you have to rabbit hole, go for it.
 
 I re-enumerated the box like the last one, and sure enough Autorecon missed a port.
 
-At 8:10PM I had another user shell.
 
-10:30PM I had a root shell. Though I probably should of had this way earlier...
-
-And then I went until 5:30AM with nothing else before calling it quits.
